@@ -37,5 +37,6 @@ foreach ($movies as $row) {
     echo '<p>' . $row['description'] . '</p>';
 
     $videoId = $row["youtube_trailer_id"];
-    echo(" <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$videoId\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>");
+    echo(" <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$videoId\" frameborder=\"0\" 
+    allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>");
 }
